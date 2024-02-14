@@ -1,0 +1,40 @@
+
+
+$colortest1 : #40df10;
+$colortest2 : #1033df;
+$colortest3 : rgb(9, 9, 43);;
+
+
+
+/* Backgorud-color */
+$color1 : #000418;
+
+
+
+$desktopScreen: 1024px;
+$tabletScreen: 768px;
+$mobileScreen: 500px;
+
+$colors: (
+    dark: #DB0C39,
+    darky: rgb(43, 12, 219)39,
+
+
+);
+
+/* Definimos las Custom properties */
+:root {
+
+
+    /* Colores */
+    --primary: hsl(287 60% 65%);
+    --gray: hsl(219 14% 71%);
+    --background: hsl(218 12% 18%);
+    --white: hsl(0 0% 100%);
+
+    /* Tipografía */
+    --tipo-principal: Helvetica, Arial, sans-serif;
+    --tipo-secundaria: Verdana;
+
+}
+
