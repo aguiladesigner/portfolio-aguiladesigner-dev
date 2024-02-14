@@ -1067,6 +1067,7 @@ blockquote::after {
   flex-flow: row wrap;
   justify-content: center;
   margin: auto;
+  background-color: #9ba0bc;
 }
 
 .skills_header {
@@ -1120,27 +1121,27 @@ blockquote::after {
   border-bottom: 1px solid gray;
 }
 
-.project_tech {
+.skill_tech {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.project_content {
+.skill_content {
   padding: 1em;
 }
 
-.project__name {
+.skill__name {
   font-size: 1.5em;
   font-size: 500;
 }
 
-.project__description {
+.skill__description {
   color: #222;
   margin: 16px 0;
 }
 
-.project__links {
+.skill__links {
 
   background-color: #d1c515;
   padding: 0;
@@ -1207,8 +1208,11 @@ blockquote::after {
   width: 200px;
   height: auto;
   background-color: #c2c7c2;
-  border: 2px solid black;
+  border: 2px solid rgb(158, 30, 30);
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
+
