@@ -7,8 +7,36 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="src/app/styles/css/style.css">
+  <!-- Codificacion EU -->
+  <meta charset="UTF-8">
+  <!-- Titulo de nuestra pagina -->
+  <title>Portfolio </title>
+  <!-- Creador/diseñador de la página -->
+  <meta name="author" content="José aguila">
+  <!-- Palabras clave de la página -->
+  <meta name="keywords" content="HTML,CSS, estructura web, diseño web">
+  <!-- Descripción de la página -->
+  <!-- Etiqueta para que el documento HTML se adapte al ancho del dispositivo en el que se está ejecutando
+   IMPORTANTE para diseño responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Indexacion en los motores de busqueda-->
+  <meta name="robots" content="noindex">
+  <!-- Compatibilidad con el navegador edge Microsoft-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- ETIQUETAS META. CONFIGURACIÓN DEL DOCUMENTO HTML -->
+  <!-- Codificación de Caracteres del documento -->
+  <!-- ESTILOS CSS -->
+  <!--  Carga de hojas de estilos CSS externas -->
+  <!-- Style menu sidebar-->
+
+  <!--  Carga de la API ggogle maps
+     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>-->
+  <!-- This site is optimized with the Yoast SEO plugin v16.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
+  <title>Home - devpops.ch</title>
+  <!-- ESTILOS JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </head>
 
@@ -125,8 +153,12 @@
         <!-- SECTION QOUTE ////////////////////////////////////////////////////////////// -->
         <div class="main__quote content__qoute">
           <figure class="quote__figure">
+            <figure class="">
+              <figcaption class="text__author">Une de mes frase preferer</figcaption>
+            </figure>
             <blockquote class="quote__text">
-              La vie ne concerne pas ce que vous pouvez gagner, mais ce que vous êtes capable de faire pour ce que vous
+              Une de me frases preferer. La vie ne concerne pas ce que vous pouvez gagner, mais ce que vous êtes capable
+              de faire pour ce que vous
               ne voulez pas perdre.
               <!--   <p>C<small class="lead">ras neque</small> lacus, mollis eu hendrerit interdum, auctor quis enim. </p> -->
               <!--   <p class="indent">Vivamus fringilla turpis risus, vitae tempus neque tristique et. Vestibulum sit amet
@@ -221,11 +253,11 @@
                 <div class="project__name">Lorem</div>
                 <div class="project__description">App delivery Rabbit Eat</div>
                 <div class="project__links">
-             
-                    <a class="link__button" href="#">Figma =></a>
-                    <a class="link__button" href="#">Live => </a>
-                    <a class="link__button" href="#">Github => </a>
-            
+
+                  <a class="link__button" href="#">Figma =></a>
+                  <a class="link__button" href="#">Live => </a>
+                  <a class="link__button" href="#">Github => </a>
+
                 </div>
               </div>
 
@@ -243,13 +275,13 @@
                 <div class="project__name">Lorem</div>
                 <div class="project__description">App delivery Rabbit Eat</div>
                 <div class="project__links">
-         
 
-              <a class="link__button" href="#">Figma =></a>
-              <a class="link__button" href="#">Live => </a>
-              <a class="link__button" href="#">Github => </a>
-     
- 
+
+                  <a class="link__button" href="#">Figma =></a>
+                  <a class="link__button" href="#">Live => </a>
+                  <a class="link__button" href="#">Github => </a>
+
+
                 </div>
               </div>
 
@@ -268,11 +300,11 @@
                 <div class="project__name">Lorem</div>
                 <div class="project__description">App delivery Rabbit Eat</div>
                 <div class="project__links">
-           
-                    <a class="link__button" href="#">Figma =></a>
-                    <a class="link__button" href="#">Live => </a>
-                    <a class="link__button" href="#">Github => </a>
-          
+
+                  <a class="link__button" href="#">Figma =></a>
+                  <a class="link__button" href="#">Live => </a>
+                  <a class="link__button" href="#">Github => </a>
+
                 </div>
               </div>
             </article>
@@ -280,7 +312,7 @@
         </section>
 
         <!-- SECTION SKILLS ////////////////////////////////////////////////////////////// -->
-      
+
 
         <section class="skills">
           <div class="skills_header article__top">
@@ -386,11 +418,11 @@
                   <div class="skill__name">Lorem</div>
                   <div class="skill__description">App delivery Rabbit Eat</div>
                   <div class="skill__links">
-                  <ul>
-                    <a class="link__button" href="#">Figma =></a>
-                    <a class="link__button" href="#">Live => </a>
-                    <a class="link__button" href="#">Github => </a>
-                  </ul>
+                    <ul>
+                      <a class="link__button" href="#">Figma =></a>
+                      <a class="link__button" href="#">Live => </a>
+                      <a class="link__button" href="#">Github => </a>
+                    </ul>
                   </div>
                 </div>
               </article>
@@ -462,11 +494,11 @@
 
         <!-- SECTION ABOUT ////////////////////////////////////////////////////////////// -->
         <section class="about">
-          <div class="about_header article__top">
+          <div class="about_header about__top">
             <h2>#About</h2>
             <h4>View all ~~></h4>
           </div>
-          <article class="about__article_left"> <!--   <img src="./public/img/lading-fut.png" alt=""> -->
+          <article class="about__article_left">
             <ul class="about__technologies">
               <div class="about_contact">
                 <!-- *** Left container *** -->
@@ -474,21 +506,25 @@
                   <div class="hero__content__about">
                     <h1 class="heading__about">AD</h1>
                     <span class="separator__about">~</span>
-                    <div class="hero__title_about">Aguila is a<span>web designer</span> and <span>front-end </span>creative developer
+                    <div class="hero__title_about">Aguila is a<span>web designer</span> and <span>front-end
+                      </span>creative developer
                     </div>
-                    <div class="hero__description__about"><span>I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.</span></div>
-                    <p class="intro__about">Transforming my creativity and ke been helping various clients to establish their presence online.
+                    <div class="hero__description__about"><span>I’m a self-taught front-end developer based in Kyiv,
+                        Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly
+                        web experiences.</span></div>
+                    <p class="intro__about">Transforming my creativity and ke been helping various clients to establish
+                      their presence online.
                     </p>
                     <a href="https://yourpalnurav.blogspot.com/" class="brk-btn">
                       Visit Me
                     </a>
                   </div>
                 </div>
-                
+
               </div>
             </ul>
           </article>
-          
+
           <article class="about__article__right">
             <div class="about__list">
               <article class="main__about__article__image">
@@ -498,17 +534,214 @@
                 </div>
               </article>
             </div>
-              
+          </article>
+        </section>
+
+
+        <!-- ---------------------- Contact -->
+
+        <section class="contact">
+          <div class="contact_header article__top">
+            <h2>#Contact</h2>
+            <h4>View all ~~></h4>
+          </div>
+          <article class="skills__article ">
+            <div class="contact__list">
+              <article class="contact__article">
+                <ul class="contact__technologies">
+                  <li class="contact_tech">Adobe AI</li>
+                  <li class="contact_tech">HTML</li>
+                  <li class="contact_tech">Sass</li>
+                  <li class="contact_tech">js</li>
+                </ul>
+                <div class="contact_content">
+                  <div class="contact__name">
+                    <p>+Transforming my creativity and ke been helping various clients to establish their presence
+                      online.
+                    </p>
+                  </div>
+                  <div class="contact__description">App delivery Rabbit Eat</div>
+                  <div class="contact__links">
+                    <ul>
+                      <a class="contact__button" href="#">Figma =></a>
+                      <a class="contact__button" href="#">Live => </a>
+                      <a class="contact__button" href="#">Github => </a>
+                    </ul>
+                  </div>
+                </div>
+              </article>
             </div>
+          </article>
+          <article class="contact__article"> <!--   <img src="./public/img/lading-fut.png" alt=""> -->
+            <h3>#Message me here</h3>
+            <ul class="contact__technologies">
+              <div class="contact__conatainer_content">
+                <div class="contact_items_paragraphe">
+                  <p class="paragraph">
+                  <article class="contact__article article__top">
+                    <ul class="contact__technologies">
+                      <div class="contact__name">Hello world</div>
+                    </ul>
+                    <ul class="contact__profil">
+
+                      <!-- Icon facebook -->
+                      <li class="contact__name">
+                        <a href="https://github.com/EliasDevis" class="media">
+                          <img src="./public/img/icons/aguila-facebook.svg" alt="github" class="media__icon">
+                        </a>
+                        <span>Nuevas publicaciones</span>
+                      </li>
+
+
+
+                      <li class="contact__name">
+                        <a href="#" class="media">
+                          <img src="./public/img/icons/aguiladesigner-instagram-contact-24.svg" alt="github"
+                            class="media__icon">
+                        </a>
+                        <span>Nuevas publicaciones</span>
+                      </li>
+
+                      <li class="contact__name">
+                        <a href="#" class="media">
+                          <img src="./public/img/icons/aguiladesigner-linkedin-icon-contact-24.svg" alt="github"
+                            class="media__icon">
+                        </a>
+                        <span>Toda mi informacion profesional</span>
+                      </li>
+
+                      <li class="contact__name">
+                        <a href="#" class="media">
+                          <img src="./public/img/icons/email.svg" alt="github" class="media__icon">
+                        </a>
+                        <span><a href="https://github.com/aguiladesigner" target="_blank"></a>Dime en que puedo
+                          ayurdate</span>
+                      </li>
+                      </li>
+                    </ul>
+                  </article>
+                  </p>
+                </div>
+              </div>
+            </ul>
+          </article>
+        </section>
+        <!-- ---------------------- SECTION FOOTER -->
+
+        <section class="footer">
+          <div class="footer_header footer__top">
+            <h2>#Contact</h2>
+            <h4>View all ~~></h4>
+          </div>
+          <article class="skills__article ">
+            <div class="footer__list">
+              <article class="footer__article">
+                <ul class="footer__technologies-2">
+                  <li class="footer__name">
+                    <a href="#" class="media">
+                      <img src="./public/img/icons/email.svg" alt="github" class="media__icon">
+                    </a>
+                    <span><a href="https://github.com/aguiladesigner" target="_blank"></a>Dime en que puedo
+                      ayurdate</span>
+                  </li>
+                </ul>
+                <div class="footer_content">
+                  <div class="footer__name">
+                    <p>Transforming my creativity and ke been helping various clients to establish their presence
+                      online.
+                    </p>
+                  </div>
+                  <div class="footer__description">App delivery Rabbit Eat</div>
+                  <!--    
+                    <div class="contact__links">
+                    <ul>
+                      <a class="contact__button" href="#">Figma =></a>
+                      <a class="contact__button" href="#">Live => </a>
+                      <a class="contact__button" href="#">Github => </a>
+                    </ul>
+                  </div> -->
+                </div>
+              </article>
+            </div>
+          </article>
+          <article class="footer__article"> <!--   <img src="./public/img/lading-fut.png" alt=""> -->
+            <h3>#Message me here</h3>
+            <ul class="footer__technologies">
+              <div class="contact__conatainer_content">
+                <div class="contact_items_paragraphe">
+                  <p class="footer__paragraph">
+                  <article class="footer__article article__top">
+                    <ul class="footer__technologies">
+                
+                        <li class="footer__name">
+                        <span><a href="https://github.com/aguiladesigner" target="_blank"></a>Media</span>
+                      </li>
+                    </ul>
+                    <ul class="footer__profil">
+                      <!-- Icon facebook -->
+                      <li class="footer__name">
+                        <a href="https://github.com/EliasDevis" class="media">
+                          <img src="./public/img/icons/aguila-facebook.svg" alt="github" class="media__icon">
+                        </a>
+                      </li>
+                      <li class="footer__name">
+                        <a href="#" class="media">
+                          <img src="./public/img/icons/aguiladesigner-instagram-contact-24.svg" alt="github"
+                            class="media__icon">
+                        </a>
+                      </li>
+                      <li class="footer__name">
+                        <a href="#" class="media">
+                          <img src="./public/img/icons/aguiladesigner-linkedin-icon-contact-24.svg" alt="github"
+                            class="media__icon">
+                        </a>
+                      </li>
+
+                      <li class="footer__name">
+                        <a href="#" class="media">
+                          <img src="./public/img/icons/aguiladesigner-github.svg" alt="github" class="media__icon">
+                        </a>
+                        <a href="https://github.com/aguiladesigner" target="_blank"></a>
+
+                      </li>
+                      <li class="footer__name">
+                        <a href="#" class="media">
+                          <img src="./public/img/icons/twitterx-24.svg" alt="github" class="media__icon">
+                        </a>
+                        <a href="https://github.com/aguiladesigner" target="_blank"></a>
+
+                      </li>
+                    </ul>
+                  </article>
+                  </p>
+                </div>
+              </div>
+            </ul>
+          </article>
+        </section>
+        <section class="main__small">
+          <article class="small__copy">
+            <section class="copy">
+              <div class="copy__left">
+                <span>© Copyright 2023 <span> | </span> Made by aguilapro.com</span>
+              </div>
+              <div class="copy__right">
+                <span>Privacy Policy</span> <span> | </span>
+                <span>Terms of Services</span>
+              </div>
+            </section>
           </article>
         </section>
       </main>
     </div>
   </div>
   <!-- partial -->
+  <script src="https://kit.fontawesome.com/30d6dbbd7e.js" crossorigin="anonymous"></script>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'> </script>
   <script src="./src/js/script.js"></script>
 
 </body>
 
-</html>s
+</html>
+
+<!-- #ABB2BF -->
